@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   background-color: #f0f0f0;
 }
 
@@ -37,8 +37,8 @@ h1 {
 
 .faq.active::before,
 .faq.active::after {
-  content: '\f075';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
   color: #2ecc71;
   font-size: 7rem;
   position: absolute;
@@ -104,4 +104,19 @@ h1 {
 
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
+}
+
+.asked {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 10px;
+}
+
+.my-style {
+  padding: 10px 30px;
 }
